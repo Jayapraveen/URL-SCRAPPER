@@ -7,7 +7,7 @@ import os
 os.system('cls')
  
 driver = webdriver.PhantomJS()
-driver.get('https://duckduckgo.com/?q=porn&t=hg&ia=web')
+driver.get('#url')
  
 lastHeight = driver.execute_script("return document.body.scrollHeight")
 while True:
